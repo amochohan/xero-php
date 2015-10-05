@@ -15,8 +15,6 @@ class Helpers {
      * in which case, the parent key is singularised and used.
      *
      * @param array $array
-     * @param int $depth
-     * @param string $singular_parent_key
      * @return string
      */
     public static function arrayToXML(array $array, $key_override = null) {
