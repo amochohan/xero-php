@@ -224,5 +224,10 @@ class Attachment extends Object {
     public static function isPageable() {
         return false;
     }
+    
+    public static function getAPIStem()
+    {
+        return Remote\URL::API_CORE;
+    }
 
 }
